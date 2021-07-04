@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7409AFC226903B80003A59BC /* ElevatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409AFC126903B80003A59BC /* ElevatorApp.swift */; };
+		7409AFC426903B80003A59BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409AFC326903B80003A59BC /* ContentView.swift */; };
+		7409AFC626903B82003A59BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7409AFC526903B82003A59BC /* Assets.xcassets */; };
+		7409AFC926903B82003A59BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7409AFC826903B82003A59BC /* Preview Assets.xcassets */; };
+		7409AFD326903F17003A59BC /* elevatorChime.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7409AFD126903F17003A59BC /* elevatorChime.m4a */; };
+		7409AFD426903F17003A59BC /* doorsOpenClose.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7409AFD226903F17003A59BC /* doorsOpenClose.m4a */; };
+		7409AFD626903F91003A59BC /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409AFD526903F91003A59BC /* Elevator.swift */; };
+		7409AFD826904128003A59BC /* FrameAndDoorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409AFD726904128003A59BC /* FrameAndDoorsView.swift */; };
+		7409AFDC269044C7003A59BC /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409AFDB269044C7003A59BC /* PlaySound.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7409AFBE26903B80003A59BC /* Elevator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elevator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7409AFC126903B80003A59BC /* ElevatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevatorApp.swift; sourceTree = "<group>"; };
+		7409AFC326903B80003A59BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7409AFC526903B82003A59BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7409AFC826903B82003A59BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7409AFCA26903B82003A59BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7409AFD126903F17003A59BC /* elevatorChime.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = elevatorChime.m4a; sourceTree = "<group>"; };
+		7409AFD226903F17003A59BC /* doorsOpenClose.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = doorsOpenClose.m4a; sourceTree = "<group>"; };
+		7409AFD526903F91003A59BC /* Elevator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
+		7409AFD726904128003A59BC /* FrameAndDoorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndDoorsView.swift; sourceTree = "<group>"; };
+		7409AFDB269044C7003A59BC /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7409AFBB26903B80003A59BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7409AFB526903B80003A59BC = {
+			isa = PBXGroup;
+			children = (
+				7409AFC026903B80003A59BC /* Elevator */,
+				7409AFBF26903B80003A59BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7409AFBF26903B80003A59BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7409AFBE26903B80003A59BC /* Elevator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7409AFC026903B80003A59BC /* Elevator */ = {
+			isa = PBXGroup;
+			children = (
+				7409AFD026903F08003A59BC /* Sounds */,
+				7409AFC126903B80003A59BC /* ElevatorApp.swift */,
+				7409AFC326903B80003A59BC /* ContentView.swift */,
+				7409AFD526903F91003A59BC /* Elevator.swift */,
+				7409AFC526903B82003A59BC /* Assets.xcassets */,
+				7409AFCA26903B82003A59BC /* Info.plist */,
+				7409AFC726903B82003A59BC /* Preview Content */,
+				7409AFD726904128003A59BC /* FrameAndDoorsView.swift */,
+				7409AFDB269044C7003A59BC /* PlaySound.swift */,
+			);
+			path = Elevator;
+			sourceTree = "<group>";
+		};
+		7409AFC726903B82003A59BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7409AFC826903B82003A59BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7409AFD026903F08003A59BC /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7409AFD226903F17003A59BC /* doorsOpenClose.m4a */,
+				7409AFD126903F17003A59BC /* elevatorChime.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7409AFBD26903B80003A59BC /* Elevator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7409AFCD26903B82003A59BC /* Build configuration list for PBXNativeTarget "Elevator" */;
+			buildPhases = (
+				7409AFBA26903B80003A59BC /* Sources */,
+				7409AFBB26903B80003A59BC /* Frameworks */,
+				7409AFBC26903B80003A59BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elevator;
+			productName = Elevator;
+			productReference = 7409AFBE26903B80003A59BC /* Elevator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7409AFB626903B80003A59BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7409AFBD26903B80003A59BC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 7409AFB926903B80003A59BC /* Build configuration list for PBXProject "Elevator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7409AFB526903B80003A59BC;
+			productRefGroup = 7409AFBF26903B80003A59BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7409AFBD26903B80003A59BC /* Elevator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7409AFBC26903B80003A59BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7409AFC926903B82003A59BC /* Preview Assets.xcassets in Resources */,
+				7409AFD426903F17003A59BC /* doorsOpenClose.m4a in Resources */,
+				7409AFD326903F17003A59BC /* elevatorChime.m4a in Resources */,
+				7409AFC626903B82003A59BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7409AFBA26903B80003A59BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7409AFDC269044C7003A59BC /* PlaySound.swift in Sources */,
+				7409AFC426903B80003A59BC /* ContentView.swift in Sources */,
+				7409AFC226903B80003A59BC /* ElevatorApp.swift in Sources */,
+				7409AFD826904128003A59BC /* FrameAndDoorsView.swift in Sources */,
+				7409AFD626903F91003A59BC /* Elevator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7409AFCB26903B82003A59BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7409AFCC26903B82003A59BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7409AFCE26903B82003A59BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Elevator/Preview Content\"";
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Elevator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikhail.Elevator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7409AFCF26903B82003A59BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Elevator/Preview Content\"";
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Elevator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikhail.Elevator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7409AFB926903B80003A59BC /* Build configuration list for PBXProject "Elevator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7409AFCB26903B82003A59BC /* Debug */,
+				7409AFCC26903B82003A59BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7409AFCD26903B82003A59BC /* Build configuration list for PBXNativeTarget "Elevator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7409AFCE26903B82003A59BC /* Debug */,
+				7409AFCF26903B82003A59BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7409AFB626903B80003A59BC /* Project object */;
+}

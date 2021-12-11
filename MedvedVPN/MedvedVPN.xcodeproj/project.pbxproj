@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7459697D26EF130000BEB89A /* MedvedVPNApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459696A26EF12FF00BEB89A /* MedvedVPNApp.swift */; };
+		7459697E26EF130000BEB89A /* MedvedVPNApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459696A26EF12FF00BEB89A /* MedvedVPNApp.swift */; };
+		7459697F26EF130000BEB89A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459696B26EF12FF00BEB89A /* ContentView.swift */; };
+		7459698026EF130000BEB89A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459696B26EF12FF00BEB89A /* ContentView.swift */; };
+		7459698126EF130000BEB89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7459696C26EF130000BEB89A /* Assets.xcassets */; };
+		7459698226EF130000BEB89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7459696C26EF130000BEB89A /* Assets.xcassets */; };
+		7459698F26EF133D00BEB89A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459698E26EF133D00BEB89A /* HomeView.swift */; };
+		7459699126EF20DE00BEB89A /* PowerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459699026EF20DE00BEB89A /* PowerButton.swift */; };
+		7459699526EF31BC00BEB89A /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7459699426EF31BC00BEB89A /* StatusBar.swift */; };
+		747A207726F09DC50011170A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A207626F09DC50011170A /* BlurView.swift */; };
+		747A207926F1B9800011170A /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A207826F1B9800011170A /* CustomCorner.swift */; };
+		747A207B26F1C2C90011170A /* BottomBarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A207A26F1C2C90011170A /* BottomBarContent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7459696A26EF12FF00BEB89A /* MedvedVPNApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedvedVPNApp.swift; sourceTree = "<group>"; };
+		7459696B26EF12FF00BEB89A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7459696C26EF130000BEB89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7459697126EF130000BEB89A /* MedvedVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedvedVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7459697426EF130000BEB89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7459697926EF130000BEB89A /* MedvedVPN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedvedVPN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7459697B26EF130000BEB89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7459697C26EF130000BEB89A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7459698E26EF133D00BEB89A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7459699026EF20DE00BEB89A /* PowerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerButton.swift; sourceTree = "<group>"; };
+		7459699426EF31BC00BEB89A /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
+		747A207626F09DC50011170A /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		747A207826F1B9800011170A /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
+		747A207A26F1C2C90011170A /* BottomBarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarContent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7459696E26EF130000BEB89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7459697626EF130000BEB89A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7459696426EF12FE00BEB89A = {
+			isa = PBXGroup;
+			children = (
+				7459696926EF12FF00BEB89A /* Shared */,
+				7459697326EF130000BEB89A /* iOS */,
+				7459697A26EF130000BEB89A /* macOS */,
+				7459697226EF130000BEB89A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7459696926EF12FF00BEB89A /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7459698D26EF132200BEB89A /* ViewModel */,
+				7459698C26EF131D00BEB89A /* Model */,
+				7459698B26EF131700BEB89A /* View */,
+				7459696A26EF12FF00BEB89A /* MedvedVPNApp.swift */,
+				7459696B26EF12FF00BEB89A /* ContentView.swift */,
+				7459696C26EF130000BEB89A /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7459697226EF130000BEB89A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7459697126EF130000BEB89A /* MedvedVPN.app */,
+				7459697926EF130000BEB89A /* MedvedVPN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7459697326EF130000BEB89A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7459697426EF130000BEB89A /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		7459697A26EF130000BEB89A /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7459697B26EF130000BEB89A /* Info.plist */,
+				7459697C26EF130000BEB89A /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		7459698B26EF131700BEB89A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7459698E26EF133D00BEB89A /* HomeView.swift */,
+				7459699026EF20DE00BEB89A /* PowerButton.swift */,
+				7459699426EF31BC00BEB89A /* StatusBar.swift */,
+				747A207626F09DC50011170A /* BlurView.swift */,
+				747A207826F1B9800011170A /* CustomCorner.swift */,
+				747A207A26F1C2C90011170A /* BottomBarContent.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7459698C26EF131D00BEB89A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7459698D26EF132200BEB89A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7459697026EF130000BEB89A /* MedvedVPN (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7459698526EF130000BEB89A /* Build configuration list for PBXNativeTarget "MedvedVPN (iOS)" */;
+			buildPhases = (
+				7459696D26EF130000BEB89A /* Sources */,
+				7459696E26EF130000BEB89A /* Frameworks */,
+				7459696F26EF130000BEB89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MedvedVPN (iOS)";
+			productName = "MedvedVPN (iOS)";
+			productReference = 7459697126EF130000BEB89A /* MedvedVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7459697826EF130000BEB89A /* MedvedVPN (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7459698826EF130000BEB89A /* Build configuration list for PBXNativeTarget "MedvedVPN (macOS)" */;
+			buildPhases = (
+				7459697526EF130000BEB89A /* Sources */,
+				7459697626EF130000BEB89A /* Frameworks */,
+				7459697726EF130000BEB89A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MedvedVPN (macOS)";
+			productName = "MedvedVPN (macOS)";
+			productReference = 7459697926EF130000BEB89A /* MedvedVPN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7459696526EF12FE00BEB89A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7459697026EF130000BEB89A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7459697826EF130000BEB89A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 7459696826EF12FE00BEB89A /* Build configuration list for PBXProject "MedvedVPN" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7459696426EF12FE00BEB89A;
+			productRefGroup = 7459697226EF130000BEB89A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7459697026EF130000BEB89A /* MedvedVPN (iOS) */,
+				7459697826EF130000BEB89A /* MedvedVPN (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7459696F26EF130000BEB89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7459698126EF130000BEB89A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7459697726EF130000BEB89A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7459698226EF130000BEB89A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7459696D26EF130000BEB89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7459699526EF31BC00BEB89A /* StatusBar.swift in Sources */,
+				7459698F26EF133D00BEB89A /* HomeView.swift in Sources */,
+				7459699126EF20DE00BEB89A /* PowerButton.swift in Sources */,
+				7459697F26EF130000BEB89A /* ContentView.swift in Sources */,
+				747A207926F1B9800011170A /* CustomCorner.swift in Sources */,
+				7459697D26EF130000BEB89A /* MedvedVPNApp.swift in Sources */,
+				747A207B26F1C2C90011170A /* BottomBarContent.swift in Sources */,
+				747A207726F09DC50011170A /* BlurView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7459697526EF130000BEB89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7459698026EF130000BEB89A /* ContentView.swift in Sources */,
+				7459697E26EF130000BEB89A /* MedvedVPNApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7459698326EF130000BEB89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7459698426EF130000BEB89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7459698626EF130000BEB89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.MedvedVPN;
+				PRODUCT_NAME = MedvedVPN;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7459698726EF130000BEB89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.MedvedVPN;
+				PRODUCT_NAME = MedvedVPN;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7459698926EF130000BEB89A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.MedvedVPN;
+				PRODUCT_NAME = MedvedVPN;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7459698A26EF130000BEB89A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.MedvedVPN;
+				PRODUCT_NAME = MedvedVPN;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7459696826EF12FE00BEB89A /* Build configuration list for PBXProject "MedvedVPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7459698326EF130000BEB89A /* Debug */,
+				7459698426EF130000BEB89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7459698526EF130000BEB89A /* Build configuration list for PBXNativeTarget "MedvedVPN (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7459698626EF130000BEB89A /* Debug */,
+				7459698726EF130000BEB89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7459698826EF130000BEB89A /* Build configuration list for PBXNativeTarget "MedvedVPN (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7459698926EF130000BEB89A /* Debug */,
+				7459698A26EF130000BEB89A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7459696526EF12FE00BEB89A /* Project object */;
+}

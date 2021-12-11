@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		745BC6B82736788A00C7582F /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745BC6B72736788A00C7582F /* GameOverView.swift */; };
+		745CA1C9272EEAFC000799DB /* JumperGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA1C8272EEAFC000799DB /* JumperGameApp.swift */; };
+		745CA1CB272EEAFC000799DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA1CA272EEAFC000799DB /* ContentView.swift */; };
+		745CA1CD272EEAFE000799DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745CA1CC272EEAFE000799DB /* Assets.xcassets */; };
+		745CA1D0272EEAFE000799DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745CA1CF272EEAFE000799DB /* Preview Assets.xcassets */; };
+		745CA1D2272EEAFE000799DB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA1D1272EEAFE000799DB /* Persistence.swift */; };
+		745CA1D5272EEAFE000799DB /* JumperGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 745CA1D3272EEAFE000799DB /* JumperGame.xcdatamodeld */; };
+		745CA1DF272EEAFE000799DB /* JumperGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA1DE272EEAFE000799DB /* JumperGameTests.swift */; };
+		745CA1E9272EEAFE000799DB /* JumperGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA1E8272EEAFE000799DB /* JumperGameUITests.swift */; };
+		745CA1EB272EEAFE000799DB /* JumperGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA1EA272EEAFE000799DB /* JumperGameUITestsLaunchTests.swift */; };
+		745CA1FD272EEC70000799DB /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA1FC272EEC70000799DB /* SplashScreen.swift */; };
+		745CA1FF272EF128000799DB /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA1FE272EF128000799DB /* Home.swift */; };
+		745CA201272EFAF1000799DB /* PopUpQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA200272EFAF1000799DB /* PopUpQuestion.swift */; };
+		745CA203272EFBC8000799DB /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA202272EFBC8000799DB /* QuestionView.swift */; };
+		745CA206272F185E000799DB /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA205272F185E000799DB /* Monster.swift */; };
+		745CA208272F1ADE000799DB /* MonsterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745CA207272F1ADE000799DB /* MonsterViewModel.swift */; };
+		746589BE273402D000A549AC /* ScoresViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746589BD273402CF00A549AC /* ScoresViewModel.swift */; };
+		746589C02734031000A549AC /* Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746589BF2734031000A549AC /* Scores.swift */; };
+		747CDE0E272FDDA2008934FE /* MonsterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747CDE0D272FDDA2008934FE /* MonsterListView.swift */; };
+		747CDE1127311915008934FE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747CDE1027311915008934FE /* GameScene.swift */; };
+		747CDE1327311ED2008934FE /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747CDE1227311ED2008934FE /* GameView.swift */; };
+		747CDE152731C835008934FE /* GameScene1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747CDE142731C835008934FE /* GameScene1.swift */; };
+		747CDE172731C854008934FE /* GameScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747CDE162731C854008934FE /* GameScene2.swift */; };
+		747CDE192732554D008934FE /* GameScene3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747CDE182732554D008934FE /* GameScene3.swift */; };
+		747CDE1B27325577008934FE /* GameScene4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747CDE1A27325577008934FE /* GameScene4.swift */; };
+		747CDE1D27325595008934FE /* GameScene5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747CDE1C27325595008934FE /* GameScene5.swift */; };
+		74F81DBF2738246600E9186F /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F81DBE2738246600E9186F /* GameOverScene.swift */; };
+		74F81DC12738D47700E9186F /* AwardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F81DC02738D47700E9186F /* AwardView.swift */; };
+		74F81DC4273A5D7F00E9186F /* jump.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 745BC6B527366FAB00C7582F /* jump.m4a */; };
+		74F81DC5273A5D8200E9186F /* gameOver.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 745BC6B427366FAB00C7582F /* gameOver.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		745CA1DB272EEAFE000799DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 745CA1BD272EEAFC000799DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 745CA1C4272EEAFC000799DB;
+			remoteInfo = JumperGame;
+		};
+		745CA1E5272EEAFE000799DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 745CA1BD272EEAFC000799DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 745CA1C4272EEAFC000799DB;
+			remoteInfo = JumperGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		745BC6B427366FAB00C7582F /* gameOver.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = gameOver.m4a; sourceTree = "<group>"; };
+		745BC6B527366FAB00C7582F /* jump.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jump.m4a; sourceTree = "<group>"; };
+		745BC6B72736788A00C7582F /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		745CA1C5272EEAFC000799DB /* JumperGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JumperGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		745CA1C8272EEAFC000799DB /* JumperGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumperGameApp.swift; sourceTree = "<group>"; };
+		745CA1CA272EEAFC000799DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		745CA1CC272EEAFE000799DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		745CA1CF272EEAFE000799DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		745CA1D1272EEAFE000799DB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		745CA1D4272EEAFE000799DB /* JumperGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JumperGame.xcdatamodel; sourceTree = "<group>"; };
+		745CA1DA272EEAFE000799DB /* JumperGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumperGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		745CA1DE272EEAFE000799DB /* JumperGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumperGameTests.swift; sourceTree = "<group>"; };
+		745CA1E4272EEAFE000799DB /* JumperGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JumperGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		745CA1E8272EEAFE000799DB /* JumperGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumperGameUITests.swift; sourceTree = "<group>"; };
+		745CA1EA272EEAFE000799DB /* JumperGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JumperGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		745CA1FC272EEC70000799DB /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		745CA1FE272EF128000799DB /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		745CA200272EFAF1000799DB /* PopUpQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpQuestion.swift; sourceTree = "<group>"; };
+		745CA202272EFBC8000799DB /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		745CA205272F185E000799DB /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		745CA207272F1ADE000799DB /* MonsterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterViewModel.swift; sourceTree = "<group>"; };
+		746589BD273402CF00A549AC /* ScoresViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresViewModel.swift; sourceTree = "<group>"; };
+		746589BF2734031000A549AC /* Scores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scores.swift; sourceTree = "<group>"; };
+		747CDE0D272FDDA2008934FE /* MonsterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterListView.swift; sourceTree = "<group>"; };
+		747CDE1027311915008934FE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		747CDE1227311ED2008934FE /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		747CDE142731C835008934FE /* GameScene1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene1.swift; sourceTree = "<group>"; };
+		747CDE162731C854008934FE /* GameScene2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene2.swift; sourceTree = "<group>"; };
+		747CDE182732554D008934FE /* GameScene3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene3.swift; sourceTree = "<group>"; };
+		747CDE1A27325577008934FE /* GameScene4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene4.swift; sourceTree = "<group>"; };
+		747CDE1C27325595008934FE /* GameScene5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene5.swift; sourceTree = "<group>"; };
+		74F81DBE2738246600E9186F /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		74F81DC02738D47700E9186F /* AwardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		745CA1C2272EEAFC000799DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745CA1D7272EEAFE000799DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745CA1E1272EEAFE000799DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		745BC6B627366FD800C7582F /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				745BC6B527366FAB00C7582F /* jump.m4a */,
+				745BC6B427366FAB00C7582F /* gameOver.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		745CA1BC272EEAFC000799DB = {
+			isa = PBXGroup;
+			children = (
+				745CA1C7272EEAFC000799DB /* JumperGame */,
+				745CA1DD272EEAFE000799DB /* JumperGameTests */,
+				745CA1E7272EEAFE000799DB /* JumperGameUITests */,
+				745CA1C6272EEAFC000799DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		745CA1C6272EEAFC000799DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				745CA1C5272EEAFC000799DB /* JumperGame.app */,
+				745CA1DA272EEAFE000799DB /* JumperGameTests.xctest */,
+				745CA1E4272EEAFE000799DB /* JumperGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		745CA1C7272EEAFC000799DB /* JumperGame */ = {
+			isa = PBXGroup;
+			children = (
+				745BC6B627366FD800C7582F /* Sounds */,
+				745CA204272EFBD5000799DB /* Utils */,
+				745CA1F9272EEC3B000799DB /* ViewModel */,
+				745CA1F8272EEC34000799DB /* View */,
+				745CA1F7272EEC2D000799DB /* Model */,
+				745CA1C8272EEAFC000799DB /* JumperGameApp.swift */,
+				745CA1CC272EEAFE000799DB /* Assets.xcassets */,
+				745CA1D1272EEAFE000799DB /* Persistence.swift */,
+				745CA1D3272EEAFE000799DB /* JumperGame.xcdatamodeld */,
+				745CA1CE272EEAFE000799DB /* Preview Content */,
+			);
+			path = JumperGame;
+			sourceTree = "<group>";
+		};
+		745CA1CE272EEAFE000799DB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				745CA1CF272EEAFE000799DB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		745CA1DD272EEAFE000799DB /* JumperGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				745CA1DE272EEAFE000799DB /* JumperGameTests.swift */,
+			);
+			path = JumperGameTests;
+			sourceTree = "<group>";
+		};
+		745CA1E7272EEAFE000799DB /* JumperGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				745CA1E8272EEAFE000799DB /* JumperGameUITests.swift */,
+				745CA1EA272EEAFE000799DB /* JumperGameUITestsLaunchTests.swift */,
+			);
+			path = JumperGameUITests;
+			sourceTree = "<group>";
+		};
+		745CA1F7272EEC2D000799DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				745CA205272F185E000799DB /* Monster.swift */,
+				746589BF2734031000A549AC /* Scores.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		745CA1F8272EEC34000799DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				747CDE0F273118F8008934FE /* Game */,
+				745CA1CA272EEAFC000799DB /* ContentView.swift */,
+				745CA1FC272EEC70000799DB /* SplashScreen.swift */,
+				745CA1FE272EF128000799DB /* Home.swift */,
+				745CA202272EFBC8000799DB /* QuestionView.swift */,
+				747CDE0D272FDDA2008934FE /* MonsterListView.swift */,
+				74F81DC02738D47700E9186F /* AwardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		745CA1F9272EEC3B000799DB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				745CA207272F1ADE000799DB /* MonsterViewModel.swift */,
+				746589BD273402CF00A549AC /* ScoresViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		745CA204272EFBD5000799DB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				745CA200272EFAF1000799DB /* PopUpQuestion.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		747CDE0F273118F8008934FE /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				747CDE1027311915008934FE /* GameScene.swift */,
+				747CDE1227311ED2008934FE /* GameView.swift */,
+				747CDE142731C835008934FE /* GameScene1.swift */,
+				747CDE162731C854008934FE /* GameScene2.swift */,
+				747CDE182732554D008934FE /* GameScene3.swift */,
+				747CDE1A27325577008934FE /* GameScene4.swift */,
+				747CDE1C27325595008934FE /* GameScene5.swift */,
+				745BC6B72736788A00C7582F /* GameOverView.swift */,
+				74F81DBE2738246600E9186F /* GameOverScene.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		745CA1C4272EEAFC000799DB /* JumperGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745CA1EE272EEAFE000799DB /* Build configuration list for PBXNativeTarget "JumperGame" */;
+			buildPhases = (
+				745CA1C1272EEAFC000799DB /* Sources */,
+				745CA1C2272EEAFC000799DB /* Frameworks */,
+				745CA1C3272EEAFC000799DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JumperGame;
+			productName = JumperGame;
+			productReference = 745CA1C5272EEAFC000799DB /* JumperGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		745CA1D9272EEAFE000799DB /* JumperGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745CA1F1272EEAFE000799DB /* Build configuration list for PBXNativeTarget "JumperGameTests" */;
+			buildPhases = (
+				745CA1D6272EEAFE000799DB /* Sources */,
+				745CA1D7272EEAFE000799DB /* Frameworks */,
+				745CA1D8272EEAFE000799DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				745CA1DC272EEAFE000799DB /* PBXTargetDependency */,
+			);
+			name = JumperGameTests;
+			productName = JumperGameTests;
+			productReference = 745CA1DA272EEAFE000799DB /* JumperGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		745CA1E3272EEAFE000799DB /* JumperGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 745CA1F4272EEAFE000799DB /* Build configuration list for PBXNativeTarget "JumperGameUITests" */;
+			buildPhases = (
+				745CA1E0272EEAFE000799DB /* Sources */,
+				745CA1E1272EEAFE000799DB /* Frameworks */,
+				745CA1E2272EEAFE000799DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				745CA1E6272EEAFE000799DB /* PBXTargetDependency */,
+			);
+			name = JumperGameUITests;
+			productName = JumperGameUITests;
+			productReference = 745CA1E4272EEAFE000799DB /* JumperGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		745CA1BD272EEAFC000799DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					745CA1C4272EEAFC000799DB = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					745CA1D9272EEAFE000799DB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 745CA1C4272EEAFC000799DB;
+					};
+					745CA1E3272EEAFE000799DB = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 745CA1C4272EEAFC000799DB;
+					};
+				};
+			};
+			buildConfigurationList = 745CA1C0272EEAFC000799DB /* Build configuration list for PBXProject "JumperGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 745CA1BC272EEAFC000799DB;
+			productRefGroup = 745CA1C6272EEAFC000799DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				745CA1C4272EEAFC000799DB /* JumperGame */,
+				745CA1D9272EEAFE000799DB /* JumperGameTests */,
+				745CA1E3272EEAFE000799DB /* JumperGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		745CA1C3272EEAFC000799DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745CA1D0272EEAFE000799DB /* Preview Assets.xcassets in Resources */,
+				74F81DC4273A5D7F00E9186F /* jump.m4a in Resources */,
+				74F81DC5273A5D8200E9186F /* gameOver.m4a in Resources */,
+				745CA1CD272EEAFE000799DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745CA1D8272EEAFE000799DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745CA1E2272EEAFE000799DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		745CA1C1272EEAFC000799DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745CA203272EFBC8000799DB /* QuestionView.swift in Sources */,
+				745CA206272F185E000799DB /* Monster.swift in Sources */,
+				74F81DBF2738246600E9186F /* GameOverScene.swift in Sources */,
+				746589C02734031000A549AC /* Scores.swift in Sources */,
+				747CDE0E272FDDA2008934FE /* MonsterListView.swift in Sources */,
+				747CDE172731C854008934FE /* GameScene2.swift in Sources */,
+				746589BE273402D000A549AC /* ScoresViewModel.swift in Sources */,
+				745CA1FD272EEC70000799DB /* SplashScreen.swift in Sources */,
+				745BC6B82736788A00C7582F /* GameOverView.swift in Sources */,
+				745CA1D5272EEAFE000799DB /* JumperGame.xcdatamodeld in Sources */,
+				747CDE192732554D008934FE /* GameScene3.swift in Sources */,
+				745CA201272EFAF1000799DB /* PopUpQuestion.swift in Sources */,
+				74F81DC12738D47700E9186F /* AwardView.swift in Sources */,
+				747CDE1B27325577008934FE /* GameScene4.swift in Sources */,
+				747CDE1127311915008934FE /* GameScene.swift in Sources */,
+				745CA1D2272EEAFE000799DB /* Persistence.swift in Sources */,
+				747CDE152731C835008934FE /* GameScene1.swift in Sources */,
+				747CDE1D27325595008934FE /* GameScene5.swift in Sources */,
+				745CA1CB272EEAFC000799DB /* ContentView.swift in Sources */,
+				745CA208272F1ADE000799DB /* MonsterViewModel.swift in Sources */,
+				745CA1FF272EF128000799DB /* Home.swift in Sources */,
+				747CDE1327311ED2008934FE /* GameView.swift in Sources */,
+				745CA1C9272EEAFC000799DB /* JumperGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745CA1D6272EEAFE000799DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745CA1DF272EEAFE000799DB /* JumperGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		745CA1E0272EEAFE000799DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				745CA1E9272EEAFE000799DB /* JumperGameUITests.swift in Sources */,
+				745CA1EB272EEAFE000799DB /* JumperGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		745CA1DC272EEAFE000799DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 745CA1C4272EEAFC000799DB /* JumperGame */;
+			targetProxy = 745CA1DB272EEAFE000799DB /* PBXContainerItemProxy */;
+		};
+		745CA1E6272EEAFE000799DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 745CA1C4272EEAFC000799DB /* JumperGame */;
+			targetProxy = 745CA1E5272EEAFE000799DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		745CA1EC272EEAFE000799DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		745CA1ED272EEAFE000799DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		745CA1EF272EEAFE000799DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_ASSET_PATHS = "\"JumperGame/Preview Content\"";
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.JumperGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		745CA1F0272EEAFE000799DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 10;
+				DEVELOPMENT_ASSET_PATHS = "\"JumperGame/Preview Content\"";
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.JumperGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		745CA1F2272EEAFE000799DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.JumperGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumperGame.app/JumperGame";
+			};
+			name = Debug;
+		};
+		745CA1F3272EEAFE000799DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.JumperGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JumperGame.app/JumperGame";
+			};
+			name = Release;
+		};
+		745CA1F5272EEAFE000799DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.JumperGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JumperGame;
+			};
+			name = Debug;
+		};
+		745CA1F6272EEAFE000799DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XS567D7DQ9;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mikhail.JumperGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JumperGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		745CA1C0272EEAFC000799DB /* Build configuration list for PBXProject "JumperGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745CA1EC272EEAFE000799DB /* Debug */,
+				745CA1ED272EEAFE000799DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745CA1EE272EEAFE000799DB /* Build configuration list for PBXNativeTarget "JumperGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745CA1EF272EEAFE000799DB /* Debug */,
+				745CA1F0272EEAFE000799DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745CA1F1272EEAFE000799DB /* Build configuration list for PBXNativeTarget "JumperGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745CA1F2272EEAFE000799DB /* Debug */,
+				745CA1F3272EEAFE000799DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		745CA1F4272EEAFE000799DB /* Build configuration list for PBXNativeTarget "JumperGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				745CA1F5272EEAFE000799DB /* Debug */,
+				745CA1F6272EEAFE000799DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		745CA1D3272EEAFE000799DB /* JumperGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				745CA1D4272EEAFE000799DB /* JumperGame.xcdatamodel */,
+			);
+			currentVersion = 745CA1D4272EEAFE000799DB /* JumperGame.xcdatamodel */;
+			path = JumperGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 745CA1BD272EEAFC000799DB /* Project object */;
+}
